@@ -32,11 +32,46 @@
   background-color:black;
   height: 40vmax;
   width: 90vmax;
+  
 }
 
 .vs-code-top{
-  background-color: darkslateblue;
+  background-color: #3c3c3c;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
 }
+
+.vs-code-top div {
+  width: 100%;
+  font-family: arial, sans-serif;
+}
+
+.left{
+  float: left;
+  max-width: 25px;
+  font-size: 16px;
+  padding: 6px;
+  text-align: center;
+}
+.center{
+  color: #cccccc;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 
+.right{
+  float: right;
+  padding: 6px;
+  text-align: center;
+  max-width: 70px;
+  font-size: 12px;
+} */
 
 @keyframes App-logo-spin {
   from {
