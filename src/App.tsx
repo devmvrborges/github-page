@@ -24,10 +24,10 @@ function App() {
           <div className="vs-code-content">
             <div className="vs-code-left-tools">
               <img src={explorer_icon} className='vs-icon' alt="logo" />
-              <a href="https://github.com/devmvrborges/" target='_blank'>
+              <a href="https://github.com/devmvrborges/" rel="noopener">
                 <img src={git_icon} className='vs-icon' alt="logo" />
               </a>
-              <a href="https://www.linkedin.com/in/mvrborges/" target='_blank'>
+              <a href="https://www.linkedin.com/in/mvrborges/" rel="noopener">
                 <img src={linkedin_icon} className='vs-icon' alt="logo" />
               </a>
           </div>
