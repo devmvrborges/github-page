@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #2d724a;
 }
 
 .App-logo {
@@ -15,13 +16,11 @@
 
 .App-header {
   background-color: #2d724a;
-  min-height: 100vh;
+  height: 90%; 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
 }
 
 .App-link {
@@ -30,9 +29,12 @@
 
 .vs-code-window{
   background-color:black;
-  height: 40vmax;
-  width: 90vmax;
-  
+  width: 90%;
+  margin: 3%;
+}
+
+.vs-code-content{
+  height: 80vh;
 }
 
 .vs-code-top{
@@ -43,6 +45,18 @@
   display: -webkit-flex;
   display: flex;
 
+}
+
+.vs-icon{
+  padding: 10px;
+  max-width: 25px;
+  max-height: 25px;
+  filter: invert(56%) sepia(1%) saturate(1%) hue-rotate(317deg) brightness(93%) contrast(86%);
+}
+
+.vs-icon:hover{
+  cursor: pointer;
+  filter: invert(87%) sepia(1%) saturate(2773%) hue-rotate(258deg) brightness(110%) contrast(108%);
 }
 
 .vs-code-top div {
@@ -58,20 +72,19 @@
   text-align: center;
 }
 .center{
-  color: #cccccc;
+  color: #F2F2F2;
   font-size: 12px;
   padding: 10px;
   text-align: center;
 }
 
-/* 
-.right{
-  float: right;
-  padding: 6px;
-  text-align: center;
-  max-width: 70px;
-  font-size: 12px;
-} */
+.vs-code-left-tools{
+  background-color: #333333;
+  max-width: 50px;
+  max-height: 100%;
+  min-height: 100%;
+}
+
 
 @keyframes App-logo-spin {
   from {
