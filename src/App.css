@@ -28,13 +28,14 @@
 }
 
 .vs-code-window{
-  background-color:black;
+  background-color: #1e1e1e;
   width: 90%;
   margin: 3%;
 }
 
 .vs-code-content{
   height: 80vh;
+  display: flex;
 }
 
 .vs-code-top{
@@ -44,7 +45,6 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
 }
 
 .vs-icon{
@@ -64,6 +64,35 @@
   font-family: arial, sans-serif;
 }
 
+.vs-code-tabs{
+  background-color: #2d2d2d;
+  height: 100%;
+  color: #858690;
+  display: flex;
+  /* padding: 5px; */
+}
+
+
+section {
+  width: calc(100% - 50px);
+  max-height: 25px;
+  border: solid 2px;
+  border-color: #252526;
+}
+
+
+.icon-white{
+  max-width: 25px;
+  max-height: 25px;
+  padding: 3px;
+  filter: invert(87%) sepia(1%) saturate(2773%) hue-rotate(258deg) brightness(110%) contrast(108%);
+}
+
+.tab-icon{
+  max-width: 25px;
+  max-height: 25px;
+}
+
 .left{
   float: left;
   max-width: 25px;
@@ -72,7 +101,7 @@
   text-align: center;
 }
 .center{
-  color: #F2F2F2;
+  color: #858690;
   font-size: 12px;
   padding: 10px;
   text-align: center;
