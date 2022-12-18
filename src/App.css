@@ -66,18 +66,29 @@
 
 .vs-code-tabs{
   background-color: #2d2d2d;
-  height: 100%;
+  width: 100%;
   color: #858690;
   display: flex;
-  /* padding: 5px; */
+  min-width: 20px;
+  cursor: pointer;
+
+}
+.vs-code-tab-main{
+  width: 100%;
+}
+.span-tab{
+  max-width: calc(100% - 40px); /* the element needs a fixed width (in px, em, %, etc) */
+  overflow: hidden; /* make sure it hides the content that overflows */
+  white-space: nowrap; /* don't break the line */
+  text-overflow: ellipsis; /* give the beautiful '...' effect */
 }
 
 
 section {
-  width: calc(100% - 50px);
   max-height: 25px;
   border: solid 2px;
   border-color: #252526;
+  display: flex;
 }
 
 
@@ -113,6 +124,22 @@ section {
   max-height: 100%;
   min-height: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  section {
+    /* width: calc(100% - 90px); */
+    max-height: 25px;
+    border: solid 2px;
+    border-color: #0acc0a;
+    display: flex;
+}
+.vs-code-tab-main{
+  width: 100%;
+  min-width: 100px;
+}
+}
+
 
 
 @keyframes App-logo-spin {

@@ -31,31 +31,25 @@ function App() {
                 <img src={linkedin_icon} className='vs-icon' alt="logo" />
               </a>
           </div>
-          
+          <div className='vs-code-tab-main'>
 <section>
   <div className="vs-code-tabs">
     <img src={md_icon} className='icon-white' alt="logo" />
-    about.md</div>
-</section>
+    <span className='span-tab'>about.md</span></div>
 
-<section>
   <div className="vs-code-tabs">
     <img src={pdf_icon} className='tab-icon' alt="logo" />
-    resume.pdf</div>
-</section>
+    <span className='span-tab'>resume.pdf</span></div>
 
-<section>
   <div className="vs-code-tabs">
     <img src={cs_icon} className='icon-white' alt="logo" />
-    projects.sln</div>
-</section>
+    <span className='span-tab'>projects.sln</span></div>
 
-<section>
   <div className="vs-code-tabs">
     <img src={config_icon} className='icon-white' alt="logo" />
-    contact.config</div>
+    <span className='span-tab'>contact.config</span></div>
 </section>
-
+</div>
         </div>
         </div>
 
