@@ -131,7 +131,7 @@ section {
     /* width: calc(100% - 90px); */
     max-height: 25px;
     border: solid 2px;
-    border-color: #0acc0a;
+    /* border-color: #0acc0a; */
     display: flex;
 }
 .vs-code-tab-main{
