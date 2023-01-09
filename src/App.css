@@ -1,12 +1,30 @@
 .App {
   text-align: center;
-  background-color: #2d724a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:99% 0%}
+  50%{background-position:2% 100%}
+  100%{background-position:99% 0%}
 }
+@-moz-keyframes AnimationName {
+  0%{background-position:99% 0%}
+  50%{background-position:2% 100%}
+  100%{background-position:99% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:99% 0%}
+  50%{background-position:2% 100%}
+  100%{background-position:99% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:99% 0%}
+  50%{background-position:2% 100%}
+  100%{background-position:99% 0%}
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,12 +33,18 @@
 }
 
 .App-header {
-  background-color: #2d724a;
-  height: 90%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
+  background: linear-gradient(218deg, #03b448, #034483);
+  background-size: 800% 800%;
+vertical-align: auto;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 .App-link {
@@ -28,9 +52,10 @@
 }
 
 .vs-code-window {
-  background-color: #1e1e1e;
   width: 90%;
-  margin: 3%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  height: 2000px;
 }
 
 .vs-code-content {
@@ -70,8 +95,10 @@
 }
 
 .vs-bottom-icons{
-  padding: 4px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
+
 
 .MuiInputBase-root{
   border-radius: 0px !important;
@@ -80,7 +107,6 @@
 }
 
 .vs-language-change{
-  
   height: 26px;
 }
 
@@ -92,6 +118,12 @@
   padding-right: 10px;
 }
 
+.vs-icon-size:hover{
+  cursor: pointer;
+  background-color: #1E87CE;
+
+}
+
 .vs-icon-mini{
   max-width: 18px;
   max-height: 18px;
@@ -99,6 +131,21 @@
   vertical-align: middle;
   filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(143deg) brightness(102%) contrast(101%);
 }
+
+
+
+.vs-icon-mini-1{
+  max-width: 15px;
+  max-height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(143deg) brightness(102%) contrast(101%);
+}
+
+
+
+
+
 
 .vs-code-top {
   background-color: #3c3c3c;
@@ -116,8 +163,17 @@
   filter: invert(56%) sepia(1%) saturate(1%) hue-rotate(317deg) brightness(93%) contrast(86%);
 }
 
+.vs-bottom-right-2{
+  width: 20px;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 8px;
+}
+.vs-bottom-right-2:hover{
+  background-color: #1E87CE;
+}
+
 .vs-icon:hover {
-  cursor: pointer;
   filter: invert(87%) sepia(1%) saturate(2773%) hue-rotate(258deg) brightness(110%) contrast(108%);
 }
 
@@ -150,6 +206,11 @@
   text-overflow: ellipsis;
   /* give the beautiful '...' effect */
 }
+
+.vs-code-tabs:hover{
+  background-color: #3c3c3c;
+}
+
 
 section {
   max-height: 25px;

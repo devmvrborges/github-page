@@ -1,5 +1,4 @@
 import * as React from 'react';
-import explorer_icon from './assets/explorer_icon.svg'
 import git_icon from './assets/git_icon.svg'
 import linkedin_icon from './assets/linkedin_icon.svg'
 import pdf_icon from './assets/pdf_icon.svg'
@@ -21,7 +20,7 @@ import './App.css';
 
 function App() {
 
-  const [age, setAge] = React.useState('');
+  const [language, setAge] = React.useState('PT-BR');
 
   const handleChange = (event: SelectChangeEvent) => {
     setAge(event.target.value);
@@ -38,7 +37,6 @@ function App() {
           </div>
           <div className="vs-code-content">
             <div className="vs-code-left-tools">
-              <img src={explorer_icon} className='vs-icon' alt="logo" />
 
               <BootstrapTooltip title="Jump to my github repositories 👨‍💻" placement="right-start">
                 <a href="https://github.com/devmvrborges/" rel="noopener">
@@ -98,17 +96,21 @@ function App() {
             <div className='vs-bottom-right'>
               <div>
                 <Select className='vs-language-change'
-                  value={age}
-                  label="Age"
+                  value={language}
+                  label="Language"
                   onChange={handleChange}>
-                  <MenuItem value={"PT-BR"}>PT-BR</MenuItem>
+                  <MenuItem value={"PT-BR"} selected>PT-BR</MenuItem>
                   <MenuItem value={"EN-US"}>EN-US</MenuItem>
                 </Select>
-                <BootstrapTooltip title="Em breve modal para enviar feedbacks pra mim sobre a pagina" placement="top">
-                  <img src={feedback_icon} className='vs-icon-mini vs-bottom-icons' alt="logo" />
+                <BootstrapTooltip title="Em breve lugar para enviar feedbacks pra mim sobre a pagina" placement="top">
+                  <div className='vs-bottom-right-2'>
+                    <img src={feedback_icon} className='vs-icon-mini-1' alt="logo" />
+                  </div>
                 </BootstrapTooltip>
                 <BootstrapTooltip title="Em breve atualizações da pagina aqui" placement="top">
-                  <img src={bell_icon} className='vs-icon-mini vs-bottom-icons' alt="logo" />
+                  <div className='vs-bottom-right-2'>
+                    <img src={bell_icon} className='vs-icon-mini' alt="logo" />
+                  </div>
                 </BootstrapTooltip>
               </div>
             </div>
