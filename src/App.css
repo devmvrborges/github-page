@@ -216,6 +216,12 @@ section {
     width: 100%;
     min-width: 100px;
   }
+
+.vs-bottom-left-1{
+  width: 110px;
+}
+
+
 }
 
 @keyframes App-logo-spin {
