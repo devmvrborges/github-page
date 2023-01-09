@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.346f1adb.css",
-    "main.js": "/github-page/static/js/main.734c4fbb.js",
+    "main.css": "/github-page/static/css/main.58adc872.css",
+    "main.js": "/github-page/static/js/main.493589ec.js",
     "static/js/787.9b443e25.chunk.js": "/github-page/static/js/787.9b443e25.chunk.js",
     "static/media/pdf_icon.svg": "/github-page/static/media/pdf_icon.1e1edebfd9373cf988fc568fee8f162a.svg",
     "static/media/cs_icon.svg": "/github-page/static/media/cs_icon.e403b88e0aadeef493cfd26d6045af4f.svg",
-    "static/media/feedback_icon.svg": "/github-page/static/media/feedback_icon.34cd67941090c312613410c186ec6454.svg",
+    "static/media/feedback_icon.svg": "/github-page/static/media/feedback_icon.40197c6a3c38d79007540fb87166575f.svg",
     "static/media/whats_icon.svg": "/github-page/static/media/whats_icon.9ea287c2d6657617c48af91b4a71a468.svg",
     "static/media/linkedin_icon.svg": "/github-page/static/media/linkedin_icon.189a288e29a6d95aba8128714d961ff7.svg",
     "static/media/config_icon.svg": "/github-page/static/media/config_icon.f49a9f17adcb00fe7bd783c796a6a3c4.svg",
     "static/media/insta_icon.svg": "/github-page/static/media/insta_icon.a356a1ae04f338f26a23c64c854b2a62.svg",
     "static/media/md_icon.svg": "/github-page/static/media/md_icon.f3788b5a974610eff15f8b3612d15475.svg",
-    "static/media/explorer_icon.svg": "/github-page/static/media/explorer_icon.78df04d35a33c4aaac39b41ccb8cfbcd.svg",
     "static/media/git_icon.svg": "/github-page/static/media/git_icon.68d9ed9ab99ce868ebeb7e343f09f25a.svg",
     "index.html": "/github-page/index.html",
     "static/media/refresh_icon.svg": "/github-page/static/media/refresh_icon.d9b6662091b6cdabe58f4947fe1bbde3.svg",
     "static/media/bell_icon.svg": "/github-page/static/media/bell_icon.60c5a0ccddd7afa94d96a8b8123a414f.svg",
-    "main.346f1adb.css.map": "/github-page/static/css/main.346f1adb.css.map",
-    "main.734c4fbb.js.map": "/github-page/static/js/main.734c4fbb.js.map",
+    "main.58adc872.css.map": "/github-page/static/css/main.58adc872.css.map",
+    "main.493589ec.js.map": "/github-page/static/js/main.493589ec.js.map",
     "787.9b443e25.chunk.js.map": "/github-page/static/js/787.9b443e25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.346f1adb.css",
-    "static/js/main.734c4fbb.js"
+    "static/css/main.58adc872.css",
+    "static/js/main.493589ec.js"
   ]
 }
