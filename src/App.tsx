@@ -1,4 +1,3 @@
-import React from 'react';
 import explorer_icon from './assets/explorer_icon.svg'
 import git_icon from './assets/git_icon.svg'
 import linkedin_icon from './assets/linkedin_icon.svg'
