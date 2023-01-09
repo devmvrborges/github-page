@@ -1,8 +1,6 @@
 import React from 'react';
-import { Tooltip as ReactTooltip } from 'react-tooltip'
 import explorer_icon from './assets/explorer_icon.svg'
 import git_icon from './assets/git_icon.svg'
-import git_icon_master from './assets/git_master_icon.svg'
 import linkedin_icon from './assets/linkedin_icon.svg'
 import pdf_icon from './assets/pdf_icon.svg'
 import md_icon from './assets/md_icon.svg'
@@ -12,7 +10,6 @@ import refresh_icon from './assets/refresh_icon.svg'
 import whats_icon from './assets/whats_icon.svg'
 import insta_icon from './assets/insta_icon.svg'
 import { styled } from '@mui/material/styles';
-import Button from '@mui/material/Button';
 import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 
 
