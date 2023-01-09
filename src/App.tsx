@@ -26,18 +26,28 @@ function App() {
           <div className="vs-code-content">
             <div className="vs-code-left-tools">
               <img src={explorer_icon} className='vs-icon' alt="logo" />
+
+              <BootstrapTooltip title="Jump to my github repositories 👨‍💻" placement="right-start">
               <a href="https://github.com/devmvrborges/" rel="noopener">
                 <img src={git_icon} className='vs-icon' alt="logo" />
               </a>
+              </BootstrapTooltip>
+
+              <BootstrapTooltip title="Jump to my LinkedIn page 💼" placement="right-start">
               <a href="https://www.linkedin.com/in/mvrborges/" rel="noopener">
                 <img src={linkedin_icon} className='vs-icon' alt="logo" />
               </a>
+              </BootstrapTooltip>
+              <BootstrapTooltip title="Jump to my Instagram page 😎" placement="right-start">
               <a href="https://www.instagram.com/maauborges/" rel="noopener">
                 <img src={insta_icon} className='vs-icon' alt="logo" />
               </a>
+              </BootstrapTooltip>
+              <BootstrapTooltip title="Send me a message on Whastapp 🐣" placement="right-start">
               <a href="https://wa.me/+5519996607813" rel="noopener">
                 <img src={whats_icon} className='vs-icon' alt="logo" />
               </a>
+              </BootstrapTooltip>
             </div>
             <div className='vs-code-tab-main'>
               <section>
@@ -64,16 +74,18 @@ function App() {
           </div>
           <div className='vs-bottom'>
             <div className='vs-bottom-left-1'>
-            <BootstrapTooltip title="Add"  placement="top">
-        
-            <img src={git_icon} className='vs-icon-mini' alt="logo"/>
-      </BootstrapTooltip>
-      <label>master</label>
-
-
+              <BootstrapTooltip title="github-page (Git) - master, Checkout branch/tag..." placement="top">
+                <div>
+                  <img src={git_icon} className='vs-icon-mini' alt="logo" />
+                  <label>master</label>
+                </div>
+              </BootstrapTooltip>
             </div>
+
             <div className='vs-bottom-left-2'>
+            <BootstrapTooltip title="github-page (Git) - Synchronize Changes" placement="top">
               <img src={refresh_icon} className='vs-icon-mini' alt="logo" />
+              </BootstrapTooltip>
             </div>
             <div className='vs-bottom-right'>.</div>
           </div>
