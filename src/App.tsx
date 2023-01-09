@@ -1,17 +1,19 @@
 import React from 'react';
-import explorer_icon from './explorer_icon.svg'
-import git_icon from './git_icon.svg'
-import linkedin_icon from './linkedin_icon.svg'
-import pdf_icon from './pdf_icon.svg'
-import md_icon from './md_icon.svg'
-import cs_icon from './cs_icon.svg'
-import config_icon from './config_icon.svg'
-import refresh_icon from './refresh_icon.svg'
-
-import whats_icon from './whats_icon.svg'
-import insta_icon from './insta_icon.svg'
-
-
+import { Tooltip as ReactTooltip } from 'react-tooltip'
+import explorer_icon from './assets/explorer_icon.svg'
+import git_icon from './assets/git_icon.svg'
+import git_icon_master from './assets/git_master_icon.svg'
+import linkedin_icon from './assets/linkedin_icon.svg'
+import pdf_icon from './assets/pdf_icon.svg'
+import md_icon from './assets/md_icon.svg'
+import cs_icon from './assets/cs_icon.svg'
+import config_icon from './assets/config_icon.svg'
+import refresh_icon from './assets/refresh_icon.svg'
+import whats_icon from './assets/whats_icon.svg'
+import insta_icon from './assets/insta_icon.svg'
+import { styled } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 
 
 import './App.css';
@@ -57,14 +59,22 @@ function App() {
                   <span className='span-tab'>contact.config</span></div>
               </section>
               <div className='vs-content'>
-                em desenvolvimento
+
+
+
+
               </div>
             </div>
           </div>
           <div className='vs-bottom'>
             <div className='vs-bottom-left-1'>
-              <img src={git_icon} className='vs-icon-mini' alt="logo" />
-              <label>master*</label>
+            <BootstrapTooltip title="Add"  placement="top">
+        
+            <img src={git_icon} className='vs-icon-mini' alt="logo"/>
+      </BootstrapTooltip>
+      <label>master</label>
+
+
             </div>
             <div className='vs-bottom-left-2'>
               <img src={refresh_icon} className='vs-icon-mini' alt="logo" />
@@ -77,3 +87,15 @@ function App() {
   );
 }
 export default App;
+
+
+const BootstrapTooltip = styled(({ className, ...props }: TooltipProps) => (
+  <Tooltip {...props} arrow classes={{ popper: className }} />
+))(({ theme }) => ({
+  [`& .${tooltipClasses.arrow}`]: {
+    color: theme.palette.common.black,
+  },
+  [`& .${tooltipClasses.tooltip}`]: {
+    backgroundColor: theme.palette.common.black,
+  },
+}));
