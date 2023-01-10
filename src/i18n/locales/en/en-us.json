@@ -1,0 +1,17 @@
+{
+    "translation":{
+        "about": "about.md",
+        "resume": "resume.pdf",
+        "projects": "projects.sln",
+        "contact": "contact.config",
+
+        "tooltip-github": "Jump to my GitHub repositories 👨‍💻",
+        "tooltip-linkedin": "Jump to my LinkedIn page 🤵",
+        "tooltip-instagram": "Jump to my Instagram page 🕵️‍♂️",
+        "tooltip-whatsapp": "Send me a message on Whastapp 🧟‍♂️",
+
+        "tooltip-feedbacks" : "Coming soon",
+        "tooltip-notifications" : "Coming soon"
+
+    }
+}
