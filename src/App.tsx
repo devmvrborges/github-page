@@ -85,9 +85,7 @@ const App = () => {
                   <span className='span-tab'>{t('contact')}</span></div>
               </section>
               <div className='vs-content'>
-
-                
-
+                reactived project!
               </div>
             </div>
           </div>
@@ -108,25 +106,25 @@ const App = () => {
             <div className='vs-bottom-right'>
               <div>
 
-<div className='selectbox-language'>
-              <Container>
-                  <Form.Select size="sm"
-                    defaultValue={i18n.resolvedLanguage}
-                    onChange={e => {
-                      i18n.changeLanguage(e.target.value);
-                    }}
-                  >
-                    {languages.map(({ code, name, countryCode }) => {
-                      return (
-                        <option
-                          key={countryCode}
-                          value={code}>
-                          {name}
-                        </option>
-                      );
-                    })}
-                  </Form.Select>
-                </Container>
+                <div className='selectbox-language'>
+                  <Container>
+                    <Form.Select size="sm"
+                      defaultValue={i18n.resolvedLanguage}
+                      onChange={e => {
+                        i18n.changeLanguage(e.target.value);
+                      }}
+                    >
+                      {languages.map(({ code, name, countryCode }) => {
+                        return (
+                          <option
+                            key={countryCode}
+                            value={code}>
+                            {name}
+                          </option>
+                        );
+                      })}
+                    </Form.Select>
+                  </Container>
                 </div>
 
 
