@@ -11,6 +11,8 @@
         "tooltip-whatsapp": "Enviar uma mensagem no meu WhatsApp 🧟‍♂️",
    
         "tooltip-feedbacks" : "Em breve",
-        "tooltip-notifications" : "Em breve"
+        "tooltip-notifications" : "Em breve",
+
+        "under-contruction": "Olá, sou o Maurício Borges 🙅‍♂️, esta página está em construção e sendo desenvolvida utilizando ReactJS um grande desafio pra mim que venho de uma carreira do backend 👨‍💻, ela foi inspirada pelo exemplo deste cara aqui: victor-aremu.firebaseapp.com 🕵️‍♂️, achei mais desafiador ainda criar esse layout tão conhecida pelos desenvolvedores 💀"
     }
 }

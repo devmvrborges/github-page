@@ -2,34 +2,108 @@
   text-align: center;
 }
 
-.BottomPage{
+.BottomPage {
   height: 500px;
 }
 
-.selectbox-language{
+.selectbox-language {
   width: 100px;
   display: inline-grid;
 }
 
+.vs-code-the-window {
+  height: 100vh;
+}
+
+.vs-container {
+  display: flex;
+  height: calc(100% - 56px);
+}
+
+.vs-left-components {
+  width: 45px;
+  height: 100%;
+}
+
+.vs-right {
+  background-color: black;
+  height: 100%;
+}
+
+.vs-right-components {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100px;
+}
+
+.vs-rightDiv {
+  margin-top: 10px;
+  /* Adicione um espaçamento entre as divs do lado direito */
+}
+
+.codeText {
+  font-family: 'Monaco', monospace;
+  font-feature-settings: "calt" 1;
+  text-rendering: optimizeLegibility;
+  color: #e1e1e1;
+}
+
+
 @-webkit-keyframes AnimationName {
-  0%{background-position:99% 0%}
-  50%{background-position:2% 100%}
-  100%{background-position:99% 0%}
+  0% {
+    background-position: 99% 0%
+  }
+
+  50% {
+    background-position: 2% 100%
+  }
+
+  100% {
+    background-position: 99% 0%
+  }
 }
+
 @-moz-keyframes AnimationName {
-  0%{background-position:99% 0%}
-  50%{background-position:2% 100%}
-  100%{background-position:99% 0%}
+  0% {
+    background-position: 99% 0%
+  }
+
+  50% {
+    background-position: 2% 100%
+  }
+
+  100% {
+    background-position: 99% 0%
+  }
 }
+
 @-o-keyframes AnimationName {
-  0%{background-position:99% 0%}
-  50%{background-position:2% 100%}
-  100%{background-position:99% 0%}
+  0% {
+    background-position: 99% 0%
+  }
+
+  50% {
+    background-position: 2% 100%
+  }
+
+  100% {
+    background-position: 99% 0%
+  }
 }
+
 @keyframes AnimationName {
-  0%{background-position:99% 0%}
-  50%{background-position:2% 100%}
-  100%{background-position:99% 0%}
+  0% {
+    background-position: 99% 0%
+  }
+
+  50% {
+    background-position: 2% 100%
+  }
+
+  100% {
+    background-position: 99% 0%
+  }
 }
 
 
@@ -48,7 +122,7 @@
   /* margin: auto; */
   background: linear-gradient(218deg, #03b448, #034483);
   background-size: 800% 800%;
-vertical-align: auto;
+  vertical-align: auto;
   -webkit-animation: AnimationName 15s ease infinite;
   -moz-animation: AnimationName 15s ease infinite;
   -o-animation: AnimationName 15s ease infinite;
@@ -61,8 +135,8 @@ vertical-align: auto;
 
 .vs-code-window {
   width: 90%;
-  margin-top: 2%;
-  margin-bottom: 3%;
+  height: 80%;
+  z-index: 1;
   -webkit-box-shadow: 0px 0px 20px 1px #000000;
   -moz-box-shadow: 0px 0px 20px 1px #000000;
   box-shadow: 0px 0px 20px 1px #000000;
@@ -73,14 +147,14 @@ vertical-align: auto;
   display: flex;
 }
 
-.vs-bottom{
+.vs-bottom {
   background-color: #007ACC;
   display: flex;
   max-height: 18px;
   min-height: 26px;
 }
 
-.vs-bottom-left-1{
+.vs-bottom-left-1 {
   text-align: left;
   width: 100px;
   float: left;
@@ -88,7 +162,7 @@ vertical-align: auto;
   color: white;
 }
 
-.vs-bottom-left-2{
+.vs-bottom-left-2 {
   text-align: left;
   width: 33px;
   float: left;
@@ -97,30 +171,31 @@ vertical-align: auto;
 }
 
 
-.vs-bottom-left-1:hover{
-  background-color: #1E87CE;
-}
-.vs-bottom-left-2:hover{
+.vs-bottom-left-1:hover {
   background-color: #1E87CE;
 }
 
-.vs-bottom-icons{
+.vs-bottom-left-2:hover {
+  background-color: #1E87CE;
+}
+
+.vs-bottom-icons {
   padding-left: 10px;
   padding-bottom: 5px;
 }
 
 
-.MuiInputBase-root{
+.MuiInputBase-root {
   border-radius: 0px !important;
   padding: 0px;
   color: white !important;
 }
 
-.vs-language-change{
+.vs-language-change {
   height: 26px;
 }
 
-.vs-bottom-right{
+.vs-bottom-right {
   float: right;
   width: 100%;
   text-align: right;
@@ -128,13 +203,13 @@ vertical-align: auto;
   padding-right: 10px;
 }
 
-.vs-icon-size:hover{
+.vs-icon-size:hover {
   cursor: pointer;
   background-color: #1E87CE;
 
 }
 
-.vs-icon-mini{
+.vs-icon-mini {
   max-width: 18px;
   max-height: 18px;
   display: inline-block;
@@ -144,7 +219,7 @@ vertical-align: auto;
 
 
 
-.vs-icon-mini-1{
+.vs-icon-mini-1 {
   max-width: 15px;
   max-height: 15px;
   display: inline-block;
@@ -173,14 +248,15 @@ vertical-align: auto;
   filter: invert(56%) sepia(1%) saturate(1%) hue-rotate(317deg) brightness(93%) contrast(86%);
 }
 
-.vs-bottom-right-2{
+.vs-bottom-right-2 {
   width: 20px;
   display: inline-block;
   padding-left: 4px;
   padding-right: 8px;
 
 }
-.vs-bottom-right-2:hover{
+
+.vs-bottom-right-2:hover {
   background-color: #1E87CE;
 }
 
@@ -218,7 +294,7 @@ vertical-align: auto;
   /* give the beautiful '...' effect */
 }
 
-.vs-code-tabs:hover{
+.vs-code-tabs:hover {
   background-color: #3c3c3c;
 }
 
@@ -302,9 +378,9 @@ section {
     min-width: 100px;
   }
 
-.vs-bottom-left-1{
-  width: 110px;
-}
+  .vs-bottom-left-1 {
+    width: 110px;
+  }
 
 
 }

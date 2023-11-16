@@ -34,6 +34,7 @@
   },
   "description": "https://github.com/mui/material-ui/blob/v5.11.4/docs/data/material/components/tooltips/CustomizedTooltips.tsx",
   "devDependencies": {
+    "@types/react-i18next": "^8.1.0",
     "react-scripts": "latest"
   },
   "eslintConfig": {
