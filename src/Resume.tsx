@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { FaCopy, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaCopy } from 'react-icons/fa';
 
 const Resume = () => {
   const handleCopyToClipboard = (text: string) => {
