@@ -1,13 +1,9 @@
 body {
     background-color: #ffffff !important;
-    /* Código de cor para o branco, ajuste conforme necessário */
     margin: 0;
-    /* Remova as margens padrão do corpo para garantir uma cobertura completa */
     padding: 0;
-    /* Remova o preenchimento padrão do corpo */
+
 }
-
-
 
 .background-decoration {
     background-color: #1A1A1A;
@@ -20,13 +16,12 @@ body {
     float: right;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .centered-text {
-    /* Estilo para o texto centralizado */
-    color: #fff; /* Cor do texto, ajuste conforme necessário */
-    padding: 20px; /* Adicione o preenchimento desejado ao redor do texto */
+    color: #fff;
+    padding: 20px;
 }
 
 .background-page {
@@ -34,48 +29,45 @@ body {
     padding: 20px;
     background-color: #1A1A1A;
     border-radius: 15px;
-    /* width: calc(100% - 20px); */
     height: 100%;
 }
 
 .a4-layout {
-    width: 210mm; /* Largura da folha A4 */
-    height: 297mm; /* Altura da folha A4 */
-    margin: 10mm; /* Margens de 20mm para imitar margens padrão da folha A4 */
-    /*padding: 10mm; /* Espaçamento interno para conteúdo */
+    width: 210mm;
+    height: 297mm;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
-    /* Adicione mais estilos conforme necessário para a aparência desejada */
-    border: 1px solid #000; /* Borda preta para visualização */
-    box-sizing: border-box; /* Inclui a borda no cálculo do tamanho total */
+    border: 1px solid #000;
+    box-sizing: border-box;
 
     @media only screen and (max-width: 210mm) {
-        width: 100%; /* Defina a largura para 100% em dispositivos menores */
-        margin: 10px; /* Ajuste as margens conforme necessário */
-        /*padding: 5px; /* Ajuste o espaçamento interno conforme necessário */
-      }
-  }
+        width: 100%;
+    }
+}
 
-.headContainer{
+.headContainer {
     display: flex;
     justify-content: space-between;
-    
-  }
-  
-  .headContainer > div {
-    width: 100%; /* Defina a largura das divs conforme necessário */
+
+}
+
+.headContainer>div {
+    width: 100%;
     padding: 50px;
+
     @media only screen and (max-width: 220mm) {
         padding: 20px;
         margin: 0px;
     }
-  }
+}
 
-.contact{
+.contact {
     font-size: 13px;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
-.headName{
+.headName {
     font-size: 20px;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
@@ -84,17 +76,17 @@ body {
     text-align: -webkit-center;
 }
 
-.headLeft{
-    border-radius: 5px 0px 0px 0px;
+.headLeft {
     background-color: #1A1A1A;
     color: #FACE49;
 }
-.headRight{
+
+.headRight {
     border-radius: 0px 5px 0px 0px;
     background-color: #FACE49;
 }
 
-.bodyContainer{
+.bodyContainer {
     background-color: #1A1A1A;
-    height: 100%; /* Defina a largura das divs conforme necessário */
+    height: 100%;
 }
