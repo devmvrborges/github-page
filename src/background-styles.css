@@ -1,0 +1,33 @@
+body {
+    height: 600px;
+     background: linear-gradient(62deg, #b8b8b8, #d4cbcf, #c3d5db, #c6d3d0);
+       animation: gradient 15s ease infinite; 
+        background-size: 400% 400%;
+    
+  }
+  @-webkit-keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+  @keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+
+.shadowPage{
+    border: 1px solid black;
+}

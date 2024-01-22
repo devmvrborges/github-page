@@ -6,9 +6,10 @@ body {
 
 .a4-layout {
     height: 100%;
-    /* border: 1px solid #000; */
     box-sizing: border-box;
     margin: 10px;
+    max-width: 1024px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 a {
@@ -29,8 +30,6 @@ a {
 .bodyContainer>div {
     width: 100%;
     padding: 10px;
-
-
 }
 
 .sectionText {
