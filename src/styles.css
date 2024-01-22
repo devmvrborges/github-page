@@ -120,7 +120,7 @@ a {
     border-radius: 5px 5px 0px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
 
     .bodyContainer{
         display: flow;
