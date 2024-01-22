@@ -1,5 +1,5 @@
 import React from 'react';
-import TypingAnimation from './TypingAnimation';
+// import TypingAnimation from './TypingAnimation';
 import './styles.css';
 import { VscCopy } from "react-icons/vsc";
 import { HiOutlineUser, HiOutlineRocketLaunch } from "react-icons/hi2";
@@ -23,12 +23,6 @@ const Resume = () => {
         console.error('Erro ao copiar para a área de transferência:', err);
       });
   };
-
-
-  const handleWhatsAppClick = () => {
-    const link = `https://wa.me/5519996607813`;
-    window.location.href = link;
-  }
 
   return (
     <div className="a4-layout">
