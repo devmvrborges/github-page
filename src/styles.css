@@ -27,7 +27,7 @@ a {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #e5e5e5;
+    background-color: #f3f3f3;
 }
 
 .bodyContainer>div {
@@ -121,17 +121,22 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
-
+    .sectionText{
+        text-align: center;
+        padding: 5px;
+    }
+    
     .bodyContainer{
         display: flow;
     }
-
+    
     .bodyContainer>div {
         padding: 5px;
         margin: 0px;
     }
-
+    
     .sectionContentText {
+        padding: 5px;
         text-align: center !important;
     }
 
@@ -153,6 +158,7 @@ a {
     }
 
     .contactLines {
+        padding: 3px;
         text-align: center;
     }
 
