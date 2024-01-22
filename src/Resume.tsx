@@ -70,10 +70,7 @@ const Resume = () => {
           </div>
         </div>
         </div>
-      </div>
-
-
-       
+      </div>      
     </div>
   );
 };

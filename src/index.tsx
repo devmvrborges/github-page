@@ -5,12 +5,12 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-      
       <div className='center'>
         <Resume />
       </div>
   </React.StrictMode>,
     document.getElementById('root')
+    // document.body.style.overflow = 'auto'
 );
 
 

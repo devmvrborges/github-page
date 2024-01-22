@@ -1,13 +1,12 @@
 body {
     background-color: #ffffff !important;
     margin: 0;
-    /* padding: 2%; */
-    /* border-radius: 5px; */
+    overflow: auto !important;
 }
 
 .a4-layout {
     height: 100%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     box-sizing: border-box;
     margin: 10px;
 }
