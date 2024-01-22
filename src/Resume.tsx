@@ -33,10 +33,10 @@ const Resume = () => {
           </div></div>
         <div className="headCenter"></div>
         <div className="head headRight contact">
-          <div className='contactLines'><a href='https://wa.me/5519996607813' target='_blank'> <ImWhatsapp className='copyIcon' /></a> <span onClick={() => handleCopyToClipboard('+55 19 9966 0 7813')}> +55 19 9966 0 7913 <VscCopy className='copyIcon' /></span> </div>
+          <div className='contactLines'><a href='https://wa.me/5519996607813' target='_blank' rel="noreferrer"> <ImWhatsapp className='copyIcon' /></a> <span onClick={() => handleCopyToClipboard('+55 19 9966 0 7813')}> +55 19 9966 0 7913 <VscCopy className='copyIcon' /></span> </div>
           <div className='contactLines'><CgMail /><span onClick={() => handleCopyToClipboard('mvrborges0@gmail.com')} > mvrborges0@gmail.com </span><VscCopy className='copyIcon' /></div>
-          <div className='contactLines'><a href='https://linkedin.com/in/mvrborges' target='_blank'><TbBrandLinkedin /> linkedin.com/in/mvrborges <FiExternalLink className='externalIcon' /></a></div>
-          <div className='contactLines'><a href='https://github.com/devmvrborges' target='_blank'><FaGithub /> github.com/devmvrborges <FiExternalLink className='externalIcon' /></a></div>
+          <div className='contactLines'><a href='https://linkedin.com/in/mvrborges' target='_blank' rel="noreferrer"><TbBrandLinkedin /> linkedin.com/in/mvrborges <FiExternalLink className='externalIcon' /></a></div>
+          <div className='contactLines'><a href='https://github.com/devmvrborges' target='_blank' rel="noreferrer"><FaGithub /> github.com/devmvrborges <FiExternalLink className='externalIcon' /></a></div>
         </div>
       </div>
       <div className='bodyContainer'>
