@@ -1,92 +1,186 @@
 body {
     background-color: #ffffff !important;
     margin: 0;
-    padding: 0;
-
-}
-
-.background-decoration {
-    background-color: #1A1A1A;
-    border-top: 200px solid #FACE49;
-    border-left: 175px solid transparent;
-    border-right: 0px solid transparent;
-    height: 0;
-    width: 280px;
-    border-radius: 0px 15px 0px 0px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.centered-text {
-    color: #fff;
-    padding: 20px;
-}
-
-.background-page {
-    margin: 20px;
-    padding: 20px;
-    background-color: #1A1A1A;
-    border-radius: 15px;
-    height: 100%;
+    /* padding: 2%; */
+    border-radius: 5px;
 }
 
 .a4-layout {
     width: 210mm;
-    height: 297mm;
+    height: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #000;
     box-sizing: border-box;
-
-    @media only screen and (max-width: 210mm) {
-        width: 100%;
-    }
 }
 
-.headContainer {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.headContainer>div {
-    width: 100%;
-    padding: 50px;
-
-    @media only screen and (max-width: 220mm) {
-        padding: 20px;
-        margin: 0px;
-    }
-}
-
-.contact {
-    font-size: 13px;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-}
-
-.headName {
-    font-size: 20px;
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+a {
+    text-decoration: none;
 }
 
 .center {
     text-align: -webkit-center;
 }
 
+.bodyContainer {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+}
+
+.bodyContainer>div {
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.sectionText {
+    font-size: 14px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #8B87FA;
+    align-items: center;
+    text-align: left;
+}
+
+.sectionContentText {
+    text-align: left;
+    color: #666583;
+}
+
+.section {
+    padding: 10px;
+}
+
+
+/* TOPO DO CV */
+.head {
+    box-sizing: border-box;
+    height: 100px;
+}
+
 .headLeft {
-    background-color: #1A1A1A;
-    color: #FACE49;
+    border-radius: 5px 0px 0px 0px;
+    width: calc(25px - 50%);
+    float: left;
+    background-color: #e5e5e5;
+}
+
+.headCenter {
+    min-width: 50px;
+    max-width: 50px;
+    float: left;
+    background-color: #e5e5e5;
+    border-top: 100px solid #5025D1;
+    border-left: 45px solid transparent;
+    padding: 0px;
 }
 
 .headRight {
+    width: calc(25px - 50%);
     border-radius: 0px 5px 0px 0px;
-    background-color: #FACE49;
+    float: left;
 }
 
-.bodyContainer {
-    background-color: #1A1A1A;
-    height: 100%;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.contact,
+a {
+    font-size: 15px;
+    color: #f0f1ff;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.contactLines {
+    align-items: center;
+    text-align: right;
+    padding: 2px;
+}
+
+.headName {
+    font-size: 20px;
+    height: 100px;
+    color: #5025D1;
+    font-weight: bold;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 5px;
+}
+
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5025D1;
+    border-radius: 5px 5px 0px;
+}
+
+@media only screen and (max-width: 320px) {
+
+    .bodyContainer{
+        display: flow;
+    }
+
+    .bodyContainer>div {
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .sectionContentText {
+        text-align: center !important;
+    }
+
+    .contact>a {
+        font-size: 13px;
+    }
+
+    .headName {
+        font-size: 20px;
+    }
+
+    .headContainer {
+        display: flow;
+    }
+
+    .headRight {
+        background-color: #5025D1;
+        border-radius: 0px;
+    }
+
+    .contactLines {
+        text-align: center;
+    }
+
+    .headCenter {
+        border: hidden;
+    }
+
+    .headContainer>div {
+        width: 100%;
+        margin: 0px;
+        align-self: center;
+    }
+}
+
+.headContainer>div {
+    width: 100%;
+}
+
+
+/* CONFIGURAÇÕES PARA IMPRESSÃO OU SALVAR PDF */
+@media print {
+
+    .headCenter {
+        border-top: 100px solid transparent;
+    }
+
+    .copyIcon,
+    .externalIcon {
+        visibility: hidden;
+    }
 }
