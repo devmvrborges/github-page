@@ -24,7 +24,7 @@
     "react-i18next": "^12.1.4",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.5.0",
-    "react-tooltip": "^5.4.0",
+    "react-tooltip": "^5.26.0",
     "styled-components": "^6.1.8",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"

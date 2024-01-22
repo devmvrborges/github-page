@@ -74,6 +74,7 @@ a {
 }
 
 .headRight {
+    padding: 3px;
     width: calc(25px - 50%);
     /* border-radius: 0px 5px 0px 0px; */
     float: left;
@@ -100,7 +101,7 @@ a {
 }
 
 .headName {
-    font-size: 20px;
+    font-size: 24px;
     height: 100px;
     color: #5025D1;
     font-weight: bold;
@@ -140,7 +141,7 @@ a {
     }
 
     .headName {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .headContainer {
@@ -185,3 +186,60 @@ a {
         visibility: hidden;
     }
 }
+
+
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contactLines{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+    transition: all .35s;
+    word-spacing: 5px;
+  }
+  
+  .contactLines span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .contactLines:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -100px;
+    width: 0px;
+    height: 100%;
+    background: #E5E5E5;
+  }
+  
+  .contactLines:hover{
+    color: #666583;
+    z-index: 4;
+    cursor: pointer;
+    background-color: #E5E5E5;
+}
+
+
+
+a:hover:after{
+    width: 100%;
+    color: #666583;
+    z-index: 4;
+    transition: all .35s;
+}
+a:hover{
+    color: #666583;
+}
+
+.contactLines:hover:after{
+    width: 100%;
+    z-index: -1;
+  } 

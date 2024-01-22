@@ -30,6 +30,7 @@ const TypingText = styled.div<{ isDeleting: boolean }>`
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 15px;
   width: 100%;
   animation: ${(props) => (props.isDeleting ? deletingAnimation : typingAnimation)} 2s steps(40, end) forwards;
 `;

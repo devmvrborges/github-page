@@ -11,7 +11,6 @@ ReactDOM.render(
       </div>
   </React.StrictMode>,
     document.getElementById('root')
-    // document.body.style.overflow = 'auto'
 );
 
 

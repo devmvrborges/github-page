@@ -1,5 +1,4 @@
 import React from 'react';
-// import TypingAnimation from './TypingAnimation';
 import './styles.css';
 import { VscCopy } from "react-icons/vsc";
 import { HiOutlineUser, HiOutlineRocketLaunch } from "react-icons/hi2";
@@ -7,10 +6,8 @@ import { VscMortarBoard } from "react-icons/vsc";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { PiCertificate } from "react-icons/pi";
 import { FiExternalLink } from "react-icons/fi";
-import { ImLab, ImWhatsapp } from "react-icons/im";
-import { CgMail } from "react-icons/cg";
-import { TbBrandLinkedin } from "react-icons/tb";
-import { FaGithub } from "react-icons/fa";
+import { ImLab } from "react-icons/im";
+import TypingAnimation from './TypingAnimation';
 
 const Resume = () => {
 
@@ -30,13 +27,17 @@ const Resume = () => {
         <div className="head headLeft">
           <div className='headName'>
             Maurício <br />Borges
+            <TypingAnimation texts={["full stack developer ☕", "development fanactic 🐍", "game developer enthusiast 🧙‍♂️", "hobby with craft beer 🍺"]}></TypingAnimation>
           </div></div>
         <div className="headCenter"></div>
         <div className="head headRight contact">
-          <div className='contactLines'><a href='https://wa.me/5519996607813' target='_blank' rel="noreferrer"> <ImWhatsapp className='copyIcon' /></a> <span onClick={() => handleCopyToClipboard('+55 19 9966 0 7813')}> +55 19 9966 0 7913 <VscCopy className='copyIcon' /></span> </div>
-          <div className='contactLines'><CgMail /><span onClick={() => handleCopyToClipboard('mvrborges0@gmail.com')} > mvrborges0@gmail.com </span><VscCopy className='copyIcon' /></div>
-          <div className='contactLines'><a href='https://linkedin.com/in/mvrborges' target='_blank' rel="noreferrer"><TbBrandLinkedin /> linkedin.com/in/mvrborges <FiExternalLink className='externalIcon' /></a></div>
-          <div className='contactLines'><a href='https://github.com/devmvrborges' target='_blank' rel="noreferrer"><FaGithub /> github.com/devmvrborges <FiExternalLink className='externalIcon' /></a></div>
+          <div className='contactLines'  data-tip="Texto da dica" data-for="meu-tooltip">
+          <a href='https://wa.me/5519996607813' target='_blank' rel="noreferrer"> +55 19 9966 0 7913 </a> <VscCopy className='copyIcon' onClick={() => handleCopyToClipboard('+55 19 9966 0 7813')}/> </div>
+          <div className='contactLines'><span onClick={() => handleCopyToClipboard('mvrborges0@gmail.com')} > mvrborges0@gmail.com <VscCopy className='copyIcon' /> </span></div>
+          <div className='contactLines'><a href='https://linkedin.com/in/mvrborges' target='_blank' rel="noreferrer"> linkedin.com/in/mvrborges <FiExternalLink className='externalIcon' /></a></div>
+          <div className='contactLines'><a href='https://github.com/devmvrborges' target='_blank' rel="noreferrer"> github.com/devmvrborges <FiExternalLink className='externalIcon' /></a></div>
+        
+       
         </div>
       </div>
       <div className='bodyContainer'>
