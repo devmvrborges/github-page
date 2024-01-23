@@ -9,6 +9,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { ImLab } from "react-icons/im";
 import TypingAnimation from './TypingAnimation';
 import { Tooltip } from 'react-tooltip'
+import SliderComponent from './Components/Slider';
 
 const Resume = () => {
 
@@ -110,18 +111,74 @@ const Resume = () => {
               <div className='sectionContentText'>
 
                 <div className='sectionTopic'>
-                  <MdOutlineInfo /> Languages <br />
                   <div className="mini-container">
-                    <div className="left">Português</div>
-                    <div className="right">2</div>
-                    {/* <div className="left">Ingles</div>
-                    <div className="right">4</div> */}
-                    {/* <div className="left">Espanhol</div>
-                    <div className="right">5</div> */}
+                  <MdOutlineInfo /> Software Skills <br />
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>C#</td>
+                          <td><SliderComponent initialValue={9} /></td>
+                        </tr>
+                        <tr>
+                          <td>NodeJS</td>
+                          <td><SliderComponent initialValue={8} /></td>
+                        </tr>
+                        <tr>
+                          <td>ReactJS</td>
+                          <td><SliderComponent initialValue={6} /></td>
+                        </tr>
+                        <tr>
+                          <td>Git</td>
+                          <td><SliderComponent initialValue={8} /></td>
+                        </tr>
+                        <tr>
+                          <td>Python</td>
+                          <td><SliderComponent initialValue={8} /></td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+
+                    <MdOutlineInfo /> Soft Skills <br />
+
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Comunication</td>
+                          <td><SliderComponent initialValue={5} /></td>
+                        </tr>
+                        <tr>
+                          <td>Multitasking</td>
+                          <td><SliderComponent initialValue={7} /></td>
+                        </tr>
+                        <tr>
+                          <td>Teamwork</td>
+                          <td><SliderComponent initialValue={7} /></td>
+                        </tr>
+                        <tr>
+                          <td>Analytical skills</td>
+                          <td><SliderComponent initialValue={7} /></td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <MdOutlineInfo /> Languages <br />
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Português</td>
+                          <td>Nativo</td>
+                        </tr>
+                        <tr>
+                          <td>Inglês</td>
+                          <td>Avançado</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
                 </div>
 
- 
+
 
 
               </div>

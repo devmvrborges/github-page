@@ -186,6 +186,12 @@ a {
         margin: 0px;
         align-self: center;
     }
+
+        table {
+            width: 100%;
+            text-align-last: right;
+            margin-left: -10%;
+        }
 }
 
 .headContainer>div {
@@ -265,17 +271,26 @@ a:hover{
 
 
   .mini-container {
-    width: 100%;
-    height: 100%;
+    padding: 5px;
 }
 
 .left {
     float: left;
     width: 50%;
+    padding: 2px;
   }
   
   
   .right {
-    float: left;
+    float: right;
     width: 50%;
   }
+
+table{
+    width: 100%;
+}
+
+td{
+  padding-left: 10px;
+    width: 50%;
+}

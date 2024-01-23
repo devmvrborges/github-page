@@ -1,0 +1,36 @@
+.slider-container {
+    width: 100%;
+  }
+  
+  .slider-track {
+    position: relative;
+    height: 10px;
+    background: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    /* border-radius: 4px; */
+    overflow: hidden;
+  }
+  
+  .slider-filled {
+    position: absolute;
+    height: 100%;
+    background: #5025D1;
+    /* border-radius: 4px; */
+  }
+  
+  .custom-slider {
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .custom-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
