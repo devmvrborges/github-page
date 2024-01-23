@@ -25,8 +25,27 @@
     "tooltip-whatsapp": "Call me on whatsapp or copy to clipboard",
     "tooltip-email": "Copy to clipboard",
     "tooltip-linkedin": "Visit my LinkedIn",
-    "tooltip-github": "Meet my github"
+    "tooltip-github": "Meet my github",
 
+    "content-local-jaguariuna": "Jaguariúna - SP, Brazil",
+    "content-local-campinas": "Campinas - SP, Brazil",
+    "content-local-saopaulo": "São Paulo - SP, Brazil",
+
+    "content-date-venturus": "Mar/2017 - Current",
+    "content-venturus": "Venturus centro de inovação Tecnológica",
+
+    "content-date-stefanini": "Jul/2016 - Mar/2017",
+    "content-stefanini": "Instituto Stefanini",
+    "content-stefanini-text": "Basic and advanced IT Instructor, specialized in tools from the Microsoft Office suite (Word, Excel, PowerPoint) and WEB. With classes of different ages, social classes, and technical levels, providing students with solid and practical knowledge with the ability to transmit complex concepts in an accessible way.",
+  
+    "content-date-unifaj": "Jan/2016 - Dec/2019",
+    "content-unifaj": "Centro Universitário de Jaguariúna - UniFAJ",
+    "content-unifaj-text": "Bachelor of Computer Science",
     
+    
+    "content-date-cruzeiro-do-sul": "Jan/2021 - Jul/2022",
+    "content-cruzeiro-do-sul": "Universidade Cruzeiro do Sul",
+    "content-cruzeiro-do-sul-text": "MBA - Specialization in Industry 4.0"
+
 }
   

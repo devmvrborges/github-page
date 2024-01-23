@@ -1,11 +1,15 @@
 {
   "change-language": "Alterar idioma",
+ 
+ 
   "title-profile": "Perfil",
   "title-work-experience": "Experiência",
   "title-education": "Graduação",
   "title-skills": "Skills",
   "title-last-projects": "Ultimos projetos",
   "title-certificates": "Certificados",
+ 
+ 
   "sub-title-skills-softskills": "Soft Skills",
   "sub-title-skills-softwareskills": "Software Skills",
   "sub-title-skills-languages": "Idioma",
@@ -13,17 +17,45 @@
   "sub-item-skills-multitasking": "Multitasking",
   "sub-item-skills-teamwork": "Trabalho em equipe",
   "sub-item-skills-analytical": "Analítico",
+ 
+ 
   "lang-content-pt-br": "Português",
   "lang-content-level-pt-br": "Nativo",
   "lang-content-en-en": "Inglês",
   "lang-content-level-en-en": "Intermediário Professional",
+  
+  
   "content-profile": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
   "content-lastprojects": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
   "content-certificates": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
+  
+  
   "tooltip-whatsapp": "Me chame no WhatsApp ou copie para area de transferência",
   "tooltip-email": "Copiar para area de transferência",
   "tooltip-linkedin": "Visite o meu LinkedIn",
-  "tooltip-github": "Conheça o meu github"
+  "tooltip-github": "Conheça o meu github",
 
+  "content-local-jaguariuna": "Jaguariúna - SP, Brasil",
+  "content-local-campinas": "Campinas - SP, Brasil",
+  "content-local-saopaulo": "São Paulo - SP, Brasil",
+
+
+  "content-date-venturus": "Mar/2017 - Atual",
+  "content-venturus": "Venturus centro de inovação Tecnológica",
+
+  "content-date-stefanini": "Jul/2016 - Mar/2017",
+  "content-stefanini": "Instituto Stefanini",
+  "content-stefanini-text": "Instrutor de Informática Básica e avançada, especializado em ferramentas do pacote Microsoft Office (Word, Excel, PowerPoint) e WEB. Com turmas de diferentes idades, classes sociais, e nível tecnico, proporcionando aos alunos conhecimentos sólidos e práticos com a capacidade de transmitir conceitos complexos de maneira acessível.",
+
+
+  "content-date-unifaj": "Jan/2016 - Dez/2019",
+  "content-unifaj": "Centro Universitário de Jaguariúna - UniFAJ",
+  "content-unifaj-text": "Bacharelado, Ciência da Computação",
   
+  
+  "content-date-cruzeiro-do-sul": "Jan/2021 - Jul/2022",
+  "content-cruzeiro-do-sul": "Universidade Cruzeiro do Sul",
+  "content-cruzeiro-do-sul-text": "MBA - Especialização em Industria 4.0"
+
+    
 }

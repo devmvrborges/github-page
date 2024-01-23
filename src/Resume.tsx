@@ -4,13 +4,15 @@ import { VscCopy } from "react-icons/vsc";
 import { HiOutlineUser, HiOutlineRocketLaunch } from "react-icons/hi2";
 import { VscMortarBoard } from "react-icons/vsc";
 import { MdOutlineWorkOutline, MdCalendarMonth, MdLocationPin, MdOutlineInfo, MdLanguage } from "react-icons/md";
-import { PiCertificate } from "react-icons/pi";
+import { PiCertificate, PiChalkboardTeacherDuotone } from "react-icons/pi";
 import { FiExternalLink } from "react-icons/fi";
+import { SiDevdotto, SiGoogleclassroom } from "react-icons/si";
 import { ImLab } from "react-icons/im";
 import TypingAnimation from './TypingAnimation';
 import { Tooltip } from 'react-tooltip'
 import SliderComponent from './Components/Slider';
 import { useTranslation } from 'react-i18next';
+
 
 const Resume = () => {
   const { t, i18n } = useTranslation();
@@ -35,9 +37,11 @@ const Resume = () => {
         <div className='headContainer'>
           <div className="head headLeft">
             <div className='headName'>
-              Maurício <br />Borges
-              <TypingAnimation texts={["full stack developer ☕", "development fanactic 🐍", "game developer enthusiast 🧙‍♂️", "hobby with craft beer 🍺"]}></TypingAnimation>
-            </div></div>
+              Mauricio <br />Borges
+              <div className='animate-text'><TypingAnimation texts={["full stack developer ☕", "development fanactic 🐍", "game developer enthusiast 🧙‍♂️", "hobby with craft beer 🍺"]}></TypingAnimation>
+              </div>
+            </div>
+          </div>
           <div className="headCenter"></div>
           <div className="head headRight contact">
             <div className='contactLines' data-tooltip-id="contact-tooltip" data-tooltip-content={t('tooltip-whatsapp')} data-tooltip-place="bottom">
@@ -59,19 +63,19 @@ const Resume = () => {
             <div className='section'>
               <div className='sectionText'> <HiOutlineUser className='icon' /> {t('title-profile')}</div>
               <div className='sectionContentText'>
-                
-                
-              {t('content-profile')}
-                  </div>
-            
+
+
+                {t('content-profile')}
+              </div>
+
             </div>
             <div className='section'>
               <div className='sectionText'> <MdOutlineWorkOutline className='icon' /> {t('title-work-experience')}</div>
               <div className='sectionContentText'>
                 <div className='sectionTopic'>
-                  <MdCalendarMonth className='icon' /> MM/YYYY - MM/YYYY <br />
-                  <MdLocationPin className='icon' /> Local, País <br />
-                  <span className='textBold'>Nome da empresa</span>
+                  <span><SiDevdotto className='icon' /><a className='textBold' href='https://linkedin.com/company/venturus' target='_blank' rel="noreferrer">  {t('content-venturus')} <FiExternalLink className='externalIcon' /></a></span><br />
+                  <MdCalendarMonth className='icon' /> {t('content-date-venturus')}  <br />
+                  <MdLocationPin className='icon' /> {t('content-local-campinas')} <br />
                   <li>text 1</li>
                   <li>text 2</li>
                   <li>text 3</li>
@@ -79,13 +83,12 @@ const Resume = () => {
                 </div>
 
                 <div className='sectionTopic'>
-                  <MdCalendarMonth className='icon' /> MM/YYYY - MM/YYYY <br />
-                  <MdLocationPin className='icon' /> Local, País <br />
-                  <span className='textBold'>Nome da empresa</span>
-                  <li>text 1</li>
-                  <li>text 2</li>
-                  <li>text 3</li>
-                  <li>text 4</li>
+                  <span><PiChalkboardTeacherDuotone className='icon' /><a className='textBold' href='https://linkedin.com/company/instituto-stefanini/' target='_blank' rel="noreferrer">  {t('content-stefanini')} <FiExternalLink className='externalIcon' /></a></span><br />
+                  <MdCalendarMonth className='icon' /> {t('content-date-stefanini')} <br />
+                  <MdLocationPin className='icon' /> {t('content-local-jaguariuna')}  <br />
+                  <div>
+                  {t('content-stefanini-text')}
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,23 +96,31 @@ const Resume = () => {
               <div className='sectionText'> <VscMortarBoard className='icon' /> {t('title-education')}</div>
               <div className='sectionContentText'>
                 <div className='sectionTopic'>
-                  <MdCalendarMonth className='icon' /> MM/YYYY - MM/YYYY <br />
-                  <MdLocationPin className='icon' /> Local, País <br />
-                  <span className='textBold'>Nome da faculdade</span>
-                  <li>text 1</li>
-                  <li>text 2</li>
-                  <li>text 3</li>
-                  <li>text 4</li>
+
+                  <span><SiGoogleclassroom className='icon' /><a className='textBold' href='https://linkedin.com/school/universidadecruzeirodosul/' target='_blank' rel="noreferrer">  {t('content-cruzeiro-do-sul')} <FiExternalLink className='externalIcon' /></a></span><br />
+
+
+                  <MdCalendarMonth className='icon' /> {t('content-date-cruzeiro-do-sul')} <br />
+                  <MdLocationPin className='icon' /> {t('content-local-saopaulo')} <br />
+
+
+                  <p>
+                    {t('content-cruzeiro-do-sul-text')}
+                  </p>
+
                 </div>
 
                 <div className='sectionTopic'>
-                  <MdCalendarMonth className='icon' /> MM/YYYY - MM/YYYY <br />
-                  <MdLocationPin className='icon' /> Local, País <br />
-                  <span className='textBold'>Nome da faculdade</span>
-                  <li>text 1</li>
-                  <li>text 2</li>
-                  <li>text 3</li>
-                  <li>text 4</li>
+
+                  <span><SiGoogleclassroom className='icon' /><a className='textBold' href='https://linkedin.com/school/unifajoficial/' target='_blank' rel="noreferrer">  {t('content-unifaj')} <FiExternalLink className='externalIcon' /></a></span><br />
+                  <MdCalendarMonth className='icon' /> {t('content-date-unifaj')} <br />
+                  <MdLocationPin className='icon' /> {t('content-local-jaguariuna')} <br />
+
+                  <p>
+                    {t('content-unifaj-text')}
+                  </p>
+
+
                 </div>
               </div>
             </div>
@@ -191,17 +202,14 @@ const Resume = () => {
               <div className='section'>
                 <div className='sectionText'> <HiOutlineRocketLaunch className='icon' /> {t('title-last-projects')} </div>
                 <div className='sectionContentText'>
-                {t('content-lastprojects')}
-                  </div>
+                  {t('content-lastprojects')}
+                </div>
               </div>
               <div className='section'>
                 <div className='sectionText'> <PiCertificate className='icon' /> {t('title-certificates')}</div>
                 <div className='sectionContentText'>
-                  
-                {t('content-certificates')}
-                  </div>
-
-
+                  {t('content-certificates')}
+                </div>
               </div>
             </div>
           </div>
@@ -210,7 +218,7 @@ const Resume = () => {
       </div>
       <div>
         <div>
-          <div className='credits'><MdLanguage  className='icon' /> {t('change-language')}
+          <div className='credits'><MdLanguage className='icon' /> {t('change-language')}
             <div onClick={() => changeLanguage('en')} className='pointer'>EN-EN</div>
             <div onClick={() => changeLanguage('pt')} className='pointer'>PT-BR</div>
           </div>
