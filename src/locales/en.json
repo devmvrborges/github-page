@@ -1,0 +1,32 @@
+{
+    "change-language": "Change language",
+    "title-profile": "Profile",
+    "title-work-experience": "Work experience",
+    "title-education": "Education",
+    "title-skills": "Skills",
+    "title-last-projects": "Last Projects",
+    "title-certificates": "Certificates",
+    "sub-title-skills-softskills": "Soft Skills",
+    "sub-title-skills-softwareskills": "Software Skills",
+    "sub-title-skills-languages": "Language",
+    "sub-item-skills-comunication": "Comunication",
+    "sub-item-skills-multitasking": "Multitasking",
+    "sub-item-skills-teamwork": "Teamwork",
+    "sub-item-skills-analytical": "Analytical skills",
+    "lang-content-pt-br": "Portuguese",
+    "lang-content-level-pt-br": "Native",
+    "lang-content-en-en": "English",
+    "lang-content-level-en-en": "Professional Working",
+    "content-profile": "english content - english content - english content - english content",
+    "content-lastprojects": "english content - english content - english content - english content",
+    "content-certificates": "english content - english content - english content - english content",
+
+    
+    "tooltip-whatsapp": "Call me on whatsapp or copy to clipboard",
+    "tooltip-email": "Copy to clipboard",
+    "tooltip-linkedin": "Visit my LinkedIn",
+    "tooltip-github": "Meet my github"
+
+    
+}
+  

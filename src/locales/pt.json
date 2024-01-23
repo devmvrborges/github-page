@@ -1,0 +1,29 @@
+{
+  "change-language": "Alterar idioma",
+  "title-profile": "Perfil",
+  "title-work-experience": "Experiência",
+  "title-education": "Graduação",
+  "title-skills": "Skills",
+  "title-last-projects": "Ultimos projetos",
+  "title-certificates": "Certificados",
+  "sub-title-skills-softskills": "Soft Skills",
+  "sub-title-skills-softwareskills": "Software Skills",
+  "sub-title-skills-languages": "Idioma",
+  "sub-item-skills-comunication": "Comunicação",
+  "sub-item-skills-multitasking": "Multitasking",
+  "sub-item-skills-teamwork": "Trabalho em equipe",
+  "sub-item-skills-analytical": "Analítico",
+  "lang-content-pt-br": "Português",
+  "lang-content-level-pt-br": "Nativo",
+  "lang-content-en-en": "Inglês",
+  "lang-content-level-en-en": "Intermediário Professional",
+  "content-profile": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
+  "content-lastprojects": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
+  "content-certificates": "pt-br conteudo - pt-br conteudo - pt-br conteudo - pt-br conteudo",
+  "tooltip-whatsapp": "Me chame no WhatsApp ou copie para area de transferência",
+  "tooltip-email": "Copiar para area de transferência",
+  "tooltip-linkedin": "Visite o meu LinkedIn",
+  "tooltip-github": "Conheça o meu github"
+
+  
+}
