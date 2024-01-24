@@ -34,7 +34,6 @@ a {
 
 .bodyContainer>div {
     width: 100%;
-    padding: 10px;
 }
 
 .sectionText {
@@ -56,11 +55,13 @@ a {
 
 .textBold {
     font-weight: bold;
+    font-size: 14px;
     color: #666583;
 }
 
 .section {
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 .sectionTopic {
@@ -207,9 +208,15 @@ a {
     .copyIcon,
     .externalIcon,
     .credits,
-    .animate-text {
+    .animate-text,
+    .shadowPage {
         visibility: hidden;
     }
+
+    .a4-layout{
+        margin: 0px;
+    }
+
 }
 
 
@@ -307,7 +314,7 @@ table {
 
 td {
 
-    width: 50%;
+    width: 25%;
     text-align: right;
 }
 
@@ -331,4 +338,12 @@ td {
     div {
         padding: 5px;
     }
+}
+
+.justify-text{
+    text-align: justify;
+}
+
+.min-fontsize{
+    font-size: 12px;
 }

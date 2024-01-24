@@ -12,14 +12,26 @@
     "sub-item-skills-comunication": "Comunication",
     "sub-item-skills-multitasking": "Multitasking",
     "sub-item-skills-teamwork": "Teamwork",
-    "sub-item-skills-analytical": "Analytical skills",
+    "sub-item-skills-analytical": "Analytical",
     "lang-content-pt-br": "Portuguese",
     "lang-content-level-pt-br": "Native",
     "lang-content-en-en": "English",
     "lang-content-level-en-en": "Professional Working",
-    "content-profile": "english content - english content - english content - english content",
-    "content-lastprojects": "english content - english content - english content - english content",
-    "content-certificates": "english content - english content - english content - english content",
+
+    "content-lastprojects-1": "Pet recogniter",
+    "content-lastprojects-1-desc": "Using Python, create an image bank, train the model and identify the pet",
+
+    "content-lastprojects-2": "This resume",
+    "content-lastprojects-2-desc": "Using ReactJS, with automatic deployment on github pages",
+
+    "content-last-certificate-1": "Sequence Models",
+    "content-last-certificate-1-desc": "Aug/2021 - Artificial intelligence trail by Coursera with DeepLearning.AI",
+
+    "content-last-certificate-2":  "Structuring Machine Learning Projects",
+    "content-last-certificate-2-desc": "Jul/2021 - Artificial intelligence trail by Coursera with DeepLearning.AI",
+
+
+    "content-certificates": "Comming soon 👷‍♂️",
 
     
     "tooltip-whatsapp": "Call me on whatsapp or copy to clipboard",
@@ -33,6 +45,7 @@
 
     "content-date-venturus": "Mar/2017 - Current",
     "content-venturus": "Venturus centro de inovação Tecnológica",
+    "content-venturus-text": "More than 30 projects delivered from different sectors of the industry such as manufacturing, human resources, quality and innovation. \nMain languages used: C#, NodeJs, ReactJS, SQL Server, Oracle, Python, NodeRED, C++ among others. \nThe vast majority using unit and/or automated tests to ensure code quality requirements, Using tools necessary for delivery/organization such as: Git, Jira, Figma, SVN, Draw.IO, Postman, among others.",
 
     "content-date-stefanini": "Jul/2016 - Mar/2017",
     "content-stefanini": "Instituto Stefanini",
@@ -45,7 +58,11 @@
     
     "content-date-cruzeiro-do-sul": "Jan/2021 - Jul/2022",
     "content-cruzeiro-do-sul": "Universidade Cruzeiro do Sul",
-    "content-cruzeiro-do-sul-text": "MBA - Specialization in Industry 4.0"
+    "content-cruzeiro-do-sul-text": "MBA - Specialization in Industry 4.0",
+
+    "content-profile": "At 30 years old and with a degree in Computer Science, I work as a software developer. Without a preference for languages, I believe they are all effective if used correctly. In personal projects, I choose languages different from those of work to broaden my experience. I have already worked as a facilitator of requirements and deliveries when allocated to customers and suppliers. I highlight the creation of an ORM in NodeJS for a database without documentation, covering millions of records to guarantee the quality of the project. I also developed software in C# for communicating with PLCs, Yaskawa robots and computer vision cameras, focusing on employee ergonomics in a Taiwanese company, among other challenges overcome."
+
+    
 
 }
   
