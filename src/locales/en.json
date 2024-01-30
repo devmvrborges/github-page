@@ -1,68 +1,48 @@
 {
-    "change-language": "Change language",
+"change-language": "Change language",
     "title-profile": "Profile",
     "title-work-experience": "Work experience",
     "title-education": "Education",
     "title-skills": "Skills",
     "title-last-projects": "Last Projects",
+    "title-contact": "Contact",
     "title-certificates": "Certificates",
-    "sub-title-skills-softskills": "Soft Skills",
-    "sub-title-skills-softwareskills": "Software Skills",
-    "sub-title-skills-languages": "Language",
-    "sub-item-skills-comunication": "Comunication",
-    "sub-item-skills-multitasking": "Multitasking",
-    "sub-item-skills-teamwork": "Teamwork",
-    "sub-item-skills-analytical": "Analytical",
-    "lang-content-pt-br": "Portuguese",
-    "lang-content-level-pt-br": "Native",
-    "lang-content-en-en": "English",
-    "lang-content-level-en-en": "Professional Working",
-
     "content-lastprojects-1": "Pet recogniter",
     "content-lastprojects-1-desc": "Using Python, create an image bank, train the model and identify the pet",
-
     "content-lastprojects-2": "This resume",
     "content-lastprojects-2-desc": "Using ReactJS, with automatic deployment on github pages",
-
     "content-last-certificate-1": "Sequence Models",
     "content-last-certificate-1-desc": "Aug/2021 - Artificial intelligence trail by Coursera with DeepLearning.AI",
-
-    "content-last-certificate-2":  "Structuring Machine Learning Projects",
+    "content-last-certificate-2": "Structuring Machine Learning Projects",
     "content-last-certificate-2-desc": "Jul/2021 - Artificial intelligence trail by Coursera with DeepLearning.AI",
-
-
-    "content-certificates": "Comming soon 👷‍♂️",
-
-    
     "tooltip-whatsapp": "Call me on whatsapp or copy to clipboard",
     "tooltip-email": "Copy to clipboard",
     "tooltip-linkedin": "Visit my LinkedIn",
     "tooltip-github": "Meet my github",
-
     "content-local-jaguariuna": "Jaguariúna - SP, Brazil",
     "content-local-campinas": "Campinas - SP, Brazil",
     "content-local-saopaulo": "São Paulo - SP, Brazil",
-
     "content-date-venturus": "Mar/2017 - Current",
     "content-venturus": "Venturus centro de inovação Tecnológica",
-    "content-venturus-text": "More than 30 projects delivered from different sectors of the industry such as manufacturing, human resources, quality and innovation. \nMain languages used: C#, NodeJs, ReactJS, SQL Server, Oracle, Python, NodeRED, C++ among others. \nThe vast majority using unit and/or automated tests to ensure code quality requirements, Using tools necessary for delivery/organization such as: Git, Jira, Figma, SVN, Draw.IO, Postman, among others.",
-
+    "content-venturus-text": "More than 30 projects delivered from different sectors of the industry such as manufacturing, human resources, quality and innovation. Main languages used: C#, NodeJs, ReactJS, SQL Server, Oracle, Python, NodeRED, C++ among others. The vast majority using unit and/or automated tests to ensure code quality requirements, Using tools necessary for delivery/organization such as: Git, Jira, Figma, SVN, Draw.IO, Postman, among others.",
     "content-date-stefanini": "Jul/2016 - Mar/2017",
     "content-stefanini": "Instituto Stefanini",
     "content-stefanini-text": "Basic and advanced IT Instructor, specialized in tools from the Microsoft Office suite (Word, Excel, PowerPoint) and WEB. With classes of different ages, social classes, and technical levels, providing students with solid and practical knowledge with the ability to transmit complex concepts in an accessible way.",
-  
     "content-date-unifaj": "Jan/2016 - Dec/2019",
-    "content-unifaj": "Centro Universitário de Jaguariúna - UniFAJ",
+    "content-unifaj": "Centro Universitário de Jaguariúna UniFAJ",
     "content-unifaj-text": "Bachelor of Computer Science",
-    
-    
     "content-date-cruzeiro-do-sul": "Jan/2021 - Jul/2022",
     "content-cruzeiro-do-sul": "Universidade Cruzeiro do Sul",
     "content-cruzeiro-do-sul-text": "MBA - Specialization in Industry 4.0",
-
-    "content-profile": "At 30 years old and with a degree in Computer Science, I work as a software developer. Without a preference for languages, I believe they are all effective if used correctly. In personal projects, I choose languages different from those of work to broaden my experience. I have already worked as a facilitator of requirements and deliveries when allocated to customers and suppliers. I highlight the creation of an ORM in NodeJS for a database without documentation, covering millions of records to guarantee the quality of the project. I also developed software in C# for communicating with PLCs, Yaskawa robots and computer vision cameras, focusing on employee ergonomics in a Taiwanese company, among other challenges overcome."
-
-    
-
+    "content-profile": "Software developer with extensive experience in challenging projects. I worked in several programming languages, such as NodeJS, C# and Python, and in frameworks such as ReactJS, Angular and Sharepoint. I have experience in mentoring, having guided six professionals, in addition to having worked as a tech lead. I consider my most challenging project to be the integration of two Yaskawa robots, PLC, vision systems, stepper motors and pneumatics, with the aim of improving the ergonomics of a shipping team.",
+    "content-title-back": "Backend",
+    "content-title-front": "Frontend",
+    "content-title-tools": "Tools",
+    "content-title-soft": "Soft",
+    "content-title-language": "Language",
+    "content-back": ".NET;Python;NodeJs;SQL;Oracle;ORM;Docker;Kubernates",
+    "content-front": "ReactJS;WPF;Angular",
+    "content-tools": "PowerBI;Git;Jira;Figma;Google Power Scripts;Sharepoint;Excel",
+    "content-soft": "Leadership;Team work;Communication",
+    "content-language": "Portuguese - Native;English - Work Experience"
 }
-  

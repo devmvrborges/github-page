@@ -1,74 +1,48 @@
 {
-  "change-language": "Alterar idioma",
- 
- 
+"change-language": "Alterar idioma",
   "title-profile": "Perfil",
   "title-work-experience": "Experiência",
   "title-education": "Graduação",
   "title-skills": "Skills",
-  "title-last-projects": "Ultimos projetos",
+  "title-contact": "Contato",
+  "title-last-projects": "Últimos projetos",
   "title-certificates": "Certificados",
- 
- 
-  "sub-title-skills-softskills": "Soft Skills",
-  "sub-title-skills-softwareskills": "Software Skills",
-  "sub-title-skills-languages": "Idioma",
-  "sub-item-skills-comunication": "Comunicação",
-  "sub-item-skills-multitasking": "Multitasking",
-  "sub-item-skills-teamwork": "Equipe",
-  "sub-item-skills-analytical": "Analítico",
- 
- 
-  "lang-content-pt-br": "Português",
-  "lang-content-level-pt-br": "Nativo",
-  "lang-content-en-en": "Inglês",
-  "lang-content-level-en-en": "Intermediário Professional",
-  
-  
-  
   "content-lastprojects-1": "Pet recogniter",
   "content-lastprojects-1-desc": "Utilizando python, cria um banco de imagens, treina o modelo e identifica o pet",
-
   "content-lastprojects-2": "Este currículo",
   "content-lastprojects-2-desc": "Utilizando ReactJS, com deploy automatico no github pages",
-
-
   "content-last-certificate-1": "Sequence Models",
   "content-last-certificate-1-desc": "Ago/2021 - Trilha de inteligência artificial do Coursera com DeepLearning.AI",
-
-  "content-last-certificate-2":  "Structuring Machine Learning Projects",
+  "content-last-certificate-2": "Structuring Machine Learning Projects",
   "content-last-certificate-2-desc": "Jul/2021 - Trilha de inteligência artificial do Coursera com DeepLearning.AI",
-  
-  
   "tooltip-whatsapp": "Me chame no WhatsApp ou copie para area de transferência",
   "tooltip-email": "Copiar para area de transferência",
   "tooltip-linkedin": "Visite o meu LinkedIn",
   "tooltip-github": "Conheça o meu github",
-
   "content-local-jaguariuna": "Jaguariúna - SP, Brasil",
   "content-local-campinas": "Campinas - SP, Brasil",
   "content-local-saopaulo": "São Paulo - SP, Brasil",
-
-
   "content-date-venturus": "Mar/2017 - Atual",
   "content-venturus": "Venturus centro de inovação Tecnológica",
-  "content-venturus-text": "Mais de 30 projetos entregues de diversos ramos da industria como manufatura, recursos humanos, qualidade e inovação. \nPrincipais linguagens utilizadas: C#, NodeJs, ReactJS, SQL Server, Oracle, Python, NodeRED, C++ entre outros. \nNa grande maioria utilizando testes unitários e/ou automatizados para garantir requisitos de qualidade de código, Utilizando ferramentas necessárias para a entrega/organização como: Git, Jira, Figma, SVN, Draw.IO, Postman, entre outros.",
-
+  "content-venturus-text": "Mais de 30 projetos entregues de diversos ramos da industria como manufatura, recursos humanos, qualidade e inovação. Principais linguagens utilizadas: C#, NodeJs, ReactJS, SQL Server, Oracle, Python, NodeRED, C++ entre outros. Na grande maioria utilizando testes unitários e/ou automatizados para garantir requisitos de qualidade de código, Utilizando ferramentas necessárias para a entrega/organização como: Git, Jira, Figma, SVN, Draw.IO, Postman, entre outros.",
   "content-date-stefanini": "Jul/2016 - Mar/2017",
   "content-stefanini": "Instituto Stefanini",
   "content-stefanini-text": "Instrutor de Informática Básica e avançada, especializado em ferramentas do pacote Microsoft Office (Word, Excel, PowerPoint) e WEB. Com turmas de diferentes idades, classes sociais, e nível tecnico, proporcionando aos alunos conhecimentos sólidos e práticos com a capacidade de transmitir conceitos complexos de maneira acessível.",
-
-
   "content-date-unifaj": "Jan/2016 - Dez/2019",
-  "content-unifaj": "Centro Universitário de Jaguariúna - UniFAJ",
+  "content-unifaj": "Centro Universitário de Jaguariúna UniFAJ",
   "content-unifaj-text": "Bacharelado, Ciência da Computação",
-  
-  
   "content-date-cruzeiro-do-sul": "Jan/2021 - Jul/2022",
   "content-cruzeiro-do-sul": "Universidade Cruzeiro do Sul",
   "content-cruzeiro-do-sul-text": "MBA - Especialização em Industria 4.0",
-
-  "content-profile": "Com 30 anos e formação em Ciência da Computação, trabalho como desenvolvedor de softwares. Sem preferência por linguagens, acredito que todas são eficazes se usadas corretamente. Em projetos pessoais, opto por linguagens distintas das do trabalho para ampliar minha experiência. Já atuei como facilitador de requisitos e entregas ao ser alocado em clientes e fornecedores. Destaco a criação de um ORM em NodeJS para um banco de dados sem documentação, abordando milhões de registros para garantir a qualidade do projeto. Também desenvolvi um software em C# para comunicação com CLPs, robôs Yaskawa e câmeras de visão computacional, focando na ergonomia dos colaboradores em uma empresa Taiwanesa, entre outros desafios superados."
-
-    
+  "content-profile": "Desenvolvedor de softwares com ampla experiência em projetos desafiadores. Atuei em diversas linguagens de programação, como NodeJS, C# e Python, e em frameworks como ReactJS, Angular e Sharepoint. Tenho experiência em mentoria, tendo orientado seis profissionais, além de ter atuado como tech lead. Considero como meu projeto mais desafiador a integração de dois robôs Yaskawa, CLP, sistemas de visão, motores de passo e pneumática, com o objetivo de melhorar a ergonomia de uma equipe de expedição.",
+  "content-title-back": "Backend",
+  "content-title-front": "Frontend",
+  "content-title-tools": "Ferramentas",
+  "content-title-soft": "Soft",
+  "content-title-language": "Idioma",
+  "content-back": ".NET;Python;NodeJs;SQL;Oracle;ORM;Docker;Kubernates",
+  "content-front": "ReactJS;WPF;Angular",
+  "content-tools": "PowerBI;Git;Jira;Figma;Google Power Scripts;Sharepoint;Excel",
+  "content-soft": "Liderança;Trabalho em equipe;Comunicação",
+  "content-language": "Português - Nativo;Inglês - Avançado"
 }
