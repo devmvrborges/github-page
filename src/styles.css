@@ -234,8 +234,9 @@ body {
 
 
 .imgProfile{
-    width: 50px;
-    left: 50px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 100px;
 }
 
 
