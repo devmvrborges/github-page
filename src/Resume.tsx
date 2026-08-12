@@ -171,9 +171,26 @@ const Resume = () => {
                             <MdOutlineWorkOutline className='icon' /> {t('title-last-projects')}
                         </div>
                         <div className='sectionTopicRight'>
-                            <div><VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/pet-recognizer' target='_blank' rel="noreferrer"> {t('content-lastprojects-1')} <FiExternalLink className='externalIcon' /></a></div>
+                            <div>
+                                <VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/pet-recognizer' target='_blank' rel="noreferrer"> {t('content-lastprojects-1')} <FiExternalLink className='externalIcon' /></a>
+                            </div>
                             <div className='justify-text'>{t('content-lastprojects-1-desc')}</div>
-                            <div><VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/github-page' target='_blank' rel="noreferrer"> {t('content-lastprojects-2')} <FiExternalLink className='externalIcon' /></a></div>
+
+                            <div>
+                                <VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/eletric-simulator' target='_blank' rel="noreferrer"> {t('content-lastprojects-3')} <FiExternalLink className='externalIcon' /></a>
+                                <a className='demo-tag' href='https://devmvrborges.github.io/eletric-simulator/' target='_blank' rel="noreferrer">{t('label-live-demo')}</a>
+                            </div>
+                            <div className='justify-text'>{t('content-lastprojects-3-desc')}</div>
+
+                            <div>
+                                <VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/dev-wrapped' target='_blank' rel="noreferrer"> {t('content-lastprojects-4')} <FiExternalLink className='externalIcon' /></a>
+                                <a className='demo-tag' href='https://devmvrborges.github.io/dev-wrapped/' target='_blank' rel="noreferrer">{t('label-live-demo')}</a>
+                            </div>
+                            <div className='justify-text'>{t('content-lastprojects-4-desc')}</div>
+
+                            <div>
+                                <VscGithub className='icon' /><a className='textBold' href='https://github.com/devmvrborges/github-page' target='_blank' rel="noreferrer"> {t('content-lastprojects-2')} <FiExternalLink className='externalIcon' /></a>
+                            </div>
                             <div className='justify-text'>{t('content-lastprojects-2-desc')}</div>
                         </div>
                     </div>

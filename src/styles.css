@@ -343,3 +343,19 @@ body {
 .min-fontsize {
     font-size: 12px;
 }
+
+.sectionTopicRight .demo-tag {
+    font-size: 13px;
+    color: #0596D5;
+    border: 1px solid #0596D5;
+    border-radius: 10px;
+    padding: 1px 7px;
+    margin-left: 6px;
+    white-space: nowrap;
+}
+
+.sectionTopicRight .demo-tag:hover {
+    color: #ECECEC;
+    background-color: #0596D5;
+    cursor: pointer;
+}
